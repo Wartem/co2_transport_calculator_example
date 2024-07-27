@@ -21,7 +21,7 @@ This project is a web application that calculates carbon dioxide (CO2) emissions
    ```bash
    git clone https://github.com/Wartem/CO2-Transport-Calculator-Example.git
 
-Data
+## Data
 The data used in this project comes from Naturvårdsverket in the form of the CSV file data-och-statistik-klimat-vaxthusgaser-utslapp-fran-inrikes-transporter-.csv.
 First Version
 This is the first simple version of the application. There are many opportunities for future improvements, including:
@@ -29,6 +29,6 @@ More transport modes and detailed data.
 Use of external APIs to fetch updated data.
 Enhanced user interface and user experience.
 
-Acknowledgments
+## Acknowledgments
 This project was developed with the assistance of Perplexity, an innovative AI tool that greatly facilitated the research and development process. Perplexity helped streamline the gathering of information and provided valuable insights into the structure and functionality of the application. By leveraging its capabilities, I was able to quickly access relevant data, explore various transport modes, and efficiently calculate CO2 emissions based on user input.
 Using Perplexity allowed me to focus on the creative aspects of the project while ensuring that the technical details were accurate and well-informed. The AI's ability to summarize complex information and suggest relevant topics significantly enhanced the overall development experience. This collaboration exemplifies how AI tools can be effectively integrated into the software development process, making it easier to create functional and user-friendly applications. Feel free to adjust any part of this text to better match your style or preferences!
