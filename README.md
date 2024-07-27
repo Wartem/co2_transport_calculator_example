@@ -1,7 +1,7 @@
 # CO2 Transport Calculator Example
 
 ## Description
-This project is a web application that calculates carbon dioxide (CO2) emissions from various modes of transport based on a specified distance. Users can enter a distance in kilometers, and the application displays the total CO2 emissions for different transport modes, including cars, buses, trains, and more. The results are presented both in tabular form and as a graph.
+This project is a simple web application that calculates carbon dioxide (CO2) emissions from various modes of transport based on a specified distance. Users can enter a distance in kilometers, and the application displays the total CO2 emissions for different transport modes, including cars, buses, trains, and more. The results are presented both in tabular form and as a graph.
 
 ## Features
 - User-friendly interface for entering distance.
