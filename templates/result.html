@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO2 Emissions Results</title>
+</head>
+<body>
+    <h1>CO2 Emissions Results</h1>
+    {% for table in tables %}
+        {{ table|safe }}
+    {% endfor %}
+    <img src="data:image/png;base64,{{ plot_url }}" alt="CO2 Emissions Plot">
+    <br>
+    <a href="/">Gör en ny beräkning</a>
+</body>
+</html>
