@@ -25,7 +25,7 @@ This project is a simple (currently) web application that calculates carbon diox
    git clone https://github.com/Wartem/CO2-Transport-Calculator-Example.git
 
 ## Data
-The data used in this project comes from OurWordData in the form of a CSV file from 2022. [data-och-statistik-klimat-vaxthusgaser-utslapp-fran-inrikes-transporter-.csv.](https://ourworldindata.org/grapher/carbon-footprint-travel-mode)
+The data used in this project comes from OurWordData in the form of a CSV file from 2022. [[carbon-footprint-travel-mode.csv](https://github.com/user-attachments/files/16403775/carbon-footprint-travel-mode.csv)](https://ourworldindata.org/grapher/carbon-footprint-travel-mode)
 
 ## First Version
 This is the first simple version of the application. There are many opportunities for future improvements, including:
