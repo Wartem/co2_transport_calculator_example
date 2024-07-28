@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CO2 Emissions Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <h1>CO2 Emissions Calculator</h1>
-    <form method="post">
-        <label for="distance">Ange sträckan i kilometer:</label>
-        <input type="number" id="distance" name="distance" required>
-        <input type="submit" value="Beräkna">
-    </form>
+    <div class="container mt-5">
+        <h1 class="mb-4">CO2 Emissions Calculator</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="distance">Enter the distance in kilometers:</label>
+                <input type="number" step="0.1" class="form-control" id="distance" name="distance" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Calculate</button>
+        </form>
+    </div>
 </body>
 </html>

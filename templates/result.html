@@ -4,14 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CO2 Emissions Results</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .chart-container, .table-container {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .chart-container img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+        .table-container {
+            overflow-x: auto;
+            margin-top: 10px; /* Added margin-top for space above the table */
+        }
+        .emissions-table {
+            width: 80%; /* Adjusted width for the table */
+            table-layout: fixed;
+        }
+        .emissions-table th, .emissions-table td {
+            padding: 5px;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .emissions-table .entity-column {
+            width: 80%; /* Adjusted width for the Entity column */
+        }
+        .emissions-table .total-emissions-column {
+            width: 60%; /* Adjusted width for the Total emissions column */
+        }
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 10px; /* Added margin below the title */
+        }
+        .btn-container {
+            margin-top: 0px;
+            margin-left: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>CO2 Emissions Results</h1>
-    {% for table in tables %}
-        {{ table|safe }}
-    {% endfor %}
-    <img src="data:image/png;base64,{{ plot_url }}" alt="CO2 Emissions Plot">
-    <br>
-    <a href="/">Gör en ny beräkning</a>
+    <div class="container-fluid mt-4">
+        <h1 class="mb-2">CO2 Emissions Results</h1>
+        <p class="lead mb-3">Results for a travel distance of <strong>{{ distance }} km</strong></p>
+        
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="mb-3">Emissions Table</h2> <!-- Added mb-3 for margin-bottom -->
+                <div class="table-container">
+                    <table class="table table-striped emissions-table">
+                        <thead>
+                            <tr>
+                                <th class="entity-column">Entity</th>
+                                <th class="total-emissions-column">Total emissions (g)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for index, row in table_data.iterrows() %}
+                            <tr>
+                                <td class="entity-column">{{ row['Entity'] }}</td>
+                                <td class="total-emissions-column">{{ "%.2f"|format(row['Total emissions']) }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h2 class="mb-3">Emissions Chart</h2> <!-- Added mb-3 for consistency -->
+                <div class="chart-container" style="margin-left: -50px;"> 
+                    <img src="data:image/png;base64,{{ plot_url }}" alt="CO2 Emissions Plot" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-container">
+            <a href="/" class="btn btn-primary">Calculate Again</a>
+        </div>
+    </div>
 </body>
 </html>
