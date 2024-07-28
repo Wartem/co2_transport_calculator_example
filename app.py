@@ -24,11 +24,11 @@ def index():
         # Create a bar plot
         plt.figure(figsize=(15, 8))  # Increased figure size
         plt.bar(df_sorted['Entity'], df_sorted['Total emissions'])
-        plt.title(f'CO2 Emissions for {distance} km by transport type', fontsize=16)
-        plt.xlabel('Transport Mode', fontsize=12)
-        plt.ylabel('CO2 Emissions (g)', fontsize=12)
-        plt.xticks(rotation=45, ha='right', fontsize=10)
-        plt.yticks(fontsize=10)
+        plt.title(f'CO2 Emissions for {distance} km by transport type', fontsize=18)
+        plt.xlabel('Transport Mode', fontsize=16)
+        plt.ylabel('CO2 Emissions (g)', fontsize=16)
+        plt.xticks(rotation=45, ha='right', fontsize=14)
+        plt.yticks(fontsize=12)
         plt.tight_layout()
         
         # Save plot to a buffer
