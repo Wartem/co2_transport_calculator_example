@@ -6,6 +6,9 @@
 ## Description
 This project is a simple (currently) web application that calculates carbon dioxide (CO2) emissions from various modes of transport based on a specified distance. Users can enter a distance in kilometers, and the application displays the total CO2 emissions for different transport modes, including cars, buses, trains, and more. The results are presented both in tabular form and as a graph.
 
+## PythonAnywhere Deployment
+The first version of this program is currently hosted on PythonAnywhere and can be accessed at the following address: http://wartem.pythonanywhere.com. Please note that this deployment is intended for demonstration purposes and may be deactivated or moved at a later date.
+
 ## Features
 - User-friendly interface for entering distance.
 - Calculation of CO2 emissions for various transport modes.
@@ -18,9 +21,6 @@ This project is a simple (currently) web application that calculates carbon diox
 - **Pandas**: For handling and analyzing data.
 - **Matplotlib**: For creating graphs and visualizations.
 - **HTML/CSS**: For frontend design.
-
-## PythonAnywhere Deployment
-The first version of this program is currently hosted on PythonAnywhere and can be accessed at the following address: http://wartem.pythonanywhere.com. Please note that this deployment is intended for demonstration purposes and may be deactivated or moved at a later date.
 
 ## Installation
 1. Clone this repository:
