@@ -20,7 +20,7 @@
             margin-top: 10px; /* Added margin-top for space above the table */
         }
         .emissions-table {
-            width: 80%; /* Adjusted width for the table */
+            width: 100%; /* Adjusted width for the table */
             table-layout: fixed;
         }
         .emissions-table th, .emissions-table td {
@@ -43,6 +43,7 @@
         .btn-container {
             margin-top: 0px;
             margin-left: 10px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -75,7 +76,7 @@
             </div>
             <div class="col-md-9">
                 <h2 class="mb-3">Emissions Chart</h2> <!-- Added mb-3 for consistency -->
-                <div class="chart-container" style="margin-left: -50px;"> 
+                <div class="chart-container"> 
                     <img src="data:image/png;base64,{{ plot_url }}" alt="CO2 Emissions Plot" class="img-fluid">
                 </div>
             </div>
