@@ -37,9 +37,8 @@ Use of external APIs to fetch updated data.
 Enhanced user interface and user experience.
 
 ## Acknowledgments
-This project was developed with the significant assistance of Perplexity AI (https://www.perplexity.ai), an innovative AI tool that greatly facilitated the research and development process. Perplexity AI provided invaluable guidance on project structure, coding practices, and documentation. It helped streamline the gathering of information and offered crucial insights into the structure and functionality of the application.
-
-The AI's contributions were instrumental in clarifying concepts, generating code, and creating comprehensive documentation for this project. This acknowledgment serves to recognize the pivotal role that Perplexity AI played in the development of WartemProjectHub.
+This project was developed with the assistance of Perplexity (and Claude), an innovative AI tool that greatly facilitated the research and development process. Perplexity helped streamline the gathering of information and provided valuable insights into the structure and functionality of the application. By leveraging its capabilities, I was able to quickly access relevant data, explore various transport modes, and efficiently calculate CO2 emissions based on user input.
+Using Perplexity allowed me to focus on the creative aspects of the project while ensuring that the technical details were accurate and well-informed. The AI's ability to summarize complex information and suggest relevant topics significantly enhanced the overall development experience. This collaboration exemplifies how AI tools can be effectively integrated into the software development process, making it easier to create functional and user-friendly applications.
 
 ## License
 This project is licensed under the MIT License.
