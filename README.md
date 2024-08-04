@@ -8,6 +8,7 @@ This project is a simple (currently) web application that calculates carbon diox
 
 ## PythonAnywhere Deployment
 The first version of this program is currently hosted on PythonAnywhere and can be accessed at the following address: http://wartem.pythonanywhere.com. Please note that this deployment is intended for demonstration purposes and may be deactivated or moved at a later date.
+A version of this program can also be viewed here: http://wartem.xyz
 
 ## Features
 - User-friendly interface for entering distance.
