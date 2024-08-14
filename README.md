@@ -1,6 +1,12 @@
 # CO2 Transport Calculator Example
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Flask](https://img.shields.io/badge/flask-2.0%2B-orange)
+![Pandas](https://img.shields.io/badge/pandas-1.3%2B-brightgreen)
+![Matplotlib](https://img.shields.io/badge/matplotlib-3.4%2B-yellow)
+![HTML](https://img.shields.io/badge/HTML-5-red)
+![CSS](https://img.shields.io/badge/CSS-3-blueviolet)
+![Jinja2](https://img.shields.io/badge/jinja2-3.0%2B-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
@@ -19,9 +25,11 @@ A version of this program can also be viewed here: http://wartem.xyz
 ## Technologies
 - **Python**: For backend logic and calculations.
 - **Flask**: For building the web application.
+- **Jinja2**: For templating and rendering dynamic content in HTML.
 - **Pandas**: For handling and analyzing data.
 - **Matplotlib**: For creating graphs and visualizations.
-- **HTML/CSS**: For frontend design.
+- **HTML**: For structuring the frontend content.
+- **CSS**: For styling the frontend design.
 
 ## Installation
 1. Clone this repository:
