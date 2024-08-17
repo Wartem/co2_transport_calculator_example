@@ -7,7 +7,6 @@
 ![Seaborn](https://img.shields.io/badge/seaborn-%23e6b91e.svg?style=flat&logo=seaborn&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-2.0%2B-orange)
-![Pandas](https://img.shields.io/badge/pandas-1.3%2B-brightgreen)
 ![Matplotlib](https://img.shields.io/badge/matplotlib-3.4%2B-yellow)
 ![HTML](https://img.shields.io/badge/HTML-5-red)
 ![CSS](https://img.shields.io/badge/CSS-3-blueviolet)
@@ -54,7 +53,8 @@ This Flask application calculates and visualizes CO2 emissions for different mod
 │ ├── index.html
 │ └── result.html
 ├── carbon-footprint-travel-mode.csv
-└── requirements.txt```
+└── requirements.txt
+```
 
 ### Key Components
 
