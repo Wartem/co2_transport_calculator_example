@@ -1,6 +1,11 @@
 # CO2 Transport Calculator Example
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)
+![Seaborn](https://img.shields.io/badge/seaborn-%23e6b91e.svg?style=flat&logo=seaborn&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
@@ -26,6 +31,56 @@ The first version of this program is currently hosted on PythonAnywhere and can 
 1. Clone this repository:
    ```bash
    git clone https://github.com/Wartem/CO2-Transport-Calculator-Example.git
+
+## How It Works
+
+This Flask application calculates and visualizes CO2 emissions for different modes of transport based on a user-input distance. Here's an overview of its structure and functionality:
+
+### Project Structure
+```your_project/
+│
+├── app.py
+├── routes.py
+├── templates/
+│ ├── index.html
+│ └── result.html
+├── carbon-footprint-travel-mode.csv
+└── requirements.txt```
+
+### Key Components
+
+1. **app.py**: 
+   - Initializes the Flask application
+   - Loads the CSV data containing emission information
+   - Serves as the entry point for running the application
+
+2. **routes.py**:
+   - Defines the URL routes and their corresponding functions
+   - Handles user requests and form submissions
+   - Processes data and generates visualizations
+
+3. **templates/**:
+   - Contains HTML templates for rendering pages
+   - `index.html`: The form for distance input
+   - `result.html`: Displays the calculation results and visualization
+
+### How It's Connected
+
+1. `app.py` creates the Flask application instance and loads the necessary data.
+2. It then imports all routes from `routes.py`.
+3. `routes.py` uses the app instance and data from `app.py` to define how the application responds to different URLs.
+4. When a user accesses the root URL:
+   - They see a form (rendered from `index.html`) to input distance.
+   - Upon form submission, the application calculates emissions, generates a plot, and displays results using `result.html`.
+
+### Data Flow
+
+1. User inputs distance on the home page.
+2. Flask processes the form submission in the `index()` function in `routes.py`.
+3. The function calculates emissions, creates a visualization, and renders the results.
+4. The user sees the rendered `result.html` page with the emissions data and plot.
+
+This structure separates concerns, making the code modular and easier to maintain. The application logic is in `routes.py`, while `app.py` handles setup and serves as the entry point.
 
 ## Data
 The data used in this project comes from OurWordData in the form of a CSV file from 2022. [[carbon-footprint-travel-mode.csv](https://github.com/user-attachments/files/16403775/carbon-footprint-travel-mode.csv)](https://ourworldindata.org/grapher/carbon-footprint-travel-mode)
