@@ -6,6 +6,12 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)
 ![Seaborn](https://img.shields.io/badge/seaborn-%23e6b91e.svg?style=flat&logo=seaborn&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+![Flask](https://img.shields.io/badge/flask-2.0%2B-orange)
+![Pandas](https://img.shields.io/badge/pandas-1.3%2B-brightgreen)
+![Matplotlib](https://img.shields.io/badge/matplotlib-3.4%2B-yellow)
+![HTML](https://img.shields.io/badge/HTML-5-red)
+![CSS](https://img.shields.io/badge/CSS-3-blueviolet)
+![Jinja2](https://img.shields.io/badge/jinja2-3.0%2B-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
@@ -13,6 +19,7 @@ This project is a simple (currently) web application that calculates carbon diox
 
 ## PythonAnywhere Deployment
 The first version of this program is currently hosted on PythonAnywhere and can be accessed at the following address: http://wartem.pythonanywhere.com. Please note that this deployment is intended for demonstration purposes and may be deactivated or moved at a later date.
+A version of this program can also be viewed here: http://wartem.xyz
 
 ## Features
 - User-friendly interface for entering distance.
@@ -23,14 +30,16 @@ The first version of this program is currently hosted on PythonAnywhere and can 
 ## Technologies
 - **Python**: For backend logic and calculations.
 - **Flask**: For building the web application.
+- **Jinja2**: For templating and rendering dynamic content in HTML.
 - **Pandas**: For handling and analyzing data.
 - **Matplotlib**: For creating graphs and visualizations.
-- **HTML/CSS**: For frontend design.
+- **HTML**: For structuring the frontend content.
+- **CSS**: For styling the frontend design.
 
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Wartem/CO2-Transport-Calculator-Example.git
+   git clone https://github.com/Wartem/co2_transport_calculator_example.git
 
 ## How It Works
 
