@@ -34,7 +34,7 @@ A version of this program can also be viewed here: http://wartem.xyz
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Wartem/CO2-Transport-Calculator-Example.git
+   git clone https://github.com/Wartem/co2_transport_calculator_example.git
 
 ## Data
 The data used in this project comes from OurWordData in the form of a CSV file from 2022. [[carbon-footprint-travel-mode.csv](https://github.com/user-attachments/files/16403775/carbon-footprint-travel-mode.csv)](https://ourworldindata.org/grapher/carbon-footprint-travel-mode)
